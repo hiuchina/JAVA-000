@@ -90,6 +90,7 @@ public class JdbcStudentDao {
 
     /**
      * 更新
+     * @param name
      * @param id
      * @return
      */
