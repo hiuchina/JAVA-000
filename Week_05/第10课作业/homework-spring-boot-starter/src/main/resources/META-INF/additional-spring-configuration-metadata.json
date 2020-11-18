@@ -1,0 +1,6 @@
+{"properties": [
+  {"name": "homework.enabled",
+    "type": "java.lang.Boolean",
+    "defaultvalue": true
+  }
+]}
