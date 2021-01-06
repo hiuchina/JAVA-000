@@ -10,7 +10,7 @@
 
 
 
-第23课学习了redis第主从模式，哨兵模式和集群模式
+第23课学习了redis的主从模式，哨兵模式和集群模式
 
 
 
@@ -34,6 +34,7 @@ docker run --net mynetwork --ip 172.60.0.4 -p 6005:6005 --name redis-slave2 -v /
 
 3、查看容器
 docker ps -a
+
 
 CONTAINER ID   IMAGE                COMMAND                  CREATED        STATUS        PORTS                              NAMES
 6249b35218a2   redis:6.0.9-alpine   "docker-entrypoint.s…"   16 hours ago   Up 16 hours   0.0.0.0:6005->6005/tcp, 6379/tcp   redis-slave2
