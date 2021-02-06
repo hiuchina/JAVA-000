@@ -7,8 +7,8 @@
 - 学习了Jstat，Jmap，Jstack，JVisualVM，JMC等工具，通过工具来看内存的使用情况更直观。还用jstat，Jstack和 Jmap分析了服务器上一个应用的内存情况。
 
 - 高吞吐量用 并行GC ，低延迟用 G1 GC或者 CMS。 
- <img src="https://xcmdpic.oss-cn-beijing.aliyuncs.com/zotero/2021-02-06-120027.png" />
 
+- 思维导图：https://xcmdpic.oss-cn-beijing.aliyuncs.com/zotero/2021-02-06-120027.png
   ![](https://xcmdpic.oss-cn-beijing.aliyuncs.com/zotero/2021-02-06-120027.png)
 
 #### 2)NIO
@@ -17,6 +17,7 @@
 
 - 学习了netty编程的基本知识，netty如何实现高性能。主要是三种reactor的模式，单线程reactor，多线程reactor，主从reactor。记住了BECH = Broker，EventLoop，Channel，Handler。
 
+- 思维导图：https://xcmdpic.oss-cn-beijing.aliyuncs.com/zotero/2021-02-06-121522.png
   ![](https://xcmdpic.oss-cn-beijing.aliyuncs.com/zotero/2021-02-06-121522.png)
 
   
@@ -33,6 +34,7 @@
 
 - 并发包（锁、原子类、信号量工具类、线程安全集合类、ThreadLocal和并行Stream）
 
+- 思维导图：https://xcmdpic.oss-cn-beijing.aliyuncs.com/zotero/2021-02-06-100003.png
   ![](https://xcmdpic.oss-cn-beijing.aliyuncs.com/zotero/2021-02-06-100003.png)
 
 #### 4)Spring 和 ORM 等框架
@@ -45,6 +47,7 @@
 
 - 设计原则（SOLISD）,设计模式（常用的有23种）, 单元测试以及编码规范（google，Ali，唯品会）
 
+- 思维导图：https://xcmdpic.oss-cn-beijing.aliyuncs.com/zotero/2021-02-06-123423.png
   ![](https://xcmdpic.oss-cn-beijing.aliyuncs.com/zotero/2021-02-06-123423.png)
 
 
@@ -56,6 +59,7 @@
 
 - 学习了Mysql事务与锁，SQL优化，印象最深的是SQL执行的先后顺序的那个图。Mysql的主从复制，读写分离，还有高可用。
 
+- 思维导图：https://xcmdpic.oss-cn-beijing.aliyuncs.com/zotero/2021-02-06-124553.png
   ![](https://xcmdpic.oss-cn-beijing.aliyuncs.com/zotero/2021-02-06-124553.png)
 
 #### 6) 分库分表
@@ -67,7 +71,8 @@
 - 用sharding-proxy，实现了分库分表。数据库2个，每个库16张表。
 
   - 因为16/2余数为0，如果按订单ID来分库，会导致奇数ID的全部到一个数据库(order_db_1)，偶数ID到全部熬一个数据库（order_db_0）,所以我配置sharding-proxy采用了数据库分片算法不按订单ID而是用户ID，这样可以保障16张表都有数据。
-
+  
+- 思维导图：https://xcmdpic.oss-cn-beijing.aliyuncs.com/zotero/2021-02-06-130927.png
     ![](https://xcmdpic.oss-cn-beijing.aliyuncs.com/zotero/2021-02-06-130927.png)
 
     
@@ -107,6 +112,8 @@
   3、数据库网格
 
   4、单元化架构
+  
+- 思维导图：https://xcmdpic.oss-cn-beijing.aliyuncs.com/zotero/2021-02-06-132712.png
 
   ![](https://xcmdpic.oss-cn-beijing.aliyuncs.com/zotero/2021-02-06-132712.png)
 
@@ -115,7 +122,7 @@
 - 学习了redis的基础功能和高级功能，用LUA脚本实现了分布式锁，用decr实现了减库存的计数器作业
 - 学习了redis的主从模式，哨兵模式和集群模式。
 - 用docker在本地将redis三种模式全部配置了一次。
-
+- 思维导图：https://xcmdpic.oss-cn-beijing.aliyuncs.com/zotero/2021-02-06-134443.png
 ![](https://xcmdpic.oss-cn-beijing.aliyuncs.com/zotero/2021-02-06-134443.png)
 
 
@@ -130,6 +137,7 @@
 
 - 学习了EIP 和架构设计
 
+- 思维导图：https://xcmdpic.oss-cn-beijing.aliyuncs.com/zotero/2021-02-06-134831.png
   ![](https://xcmdpic.oss-cn-beijing.aliyuncs.com/zotero/2021-02-06-134831.png)
 
 #### 总结
