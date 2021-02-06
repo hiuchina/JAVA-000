@@ -7,6 +7,7 @@
 - 学习了Jstat，Jmap，Jstack，JVisualVM，JMC等工具，通过工具来看内存的使用情况更直观。还用jstat，Jstack和 Jmap分析了服务器上一个应用的内存情况。
 
 - 高吞吐量用 并行GC ，低延迟用 G1 GC或者 CMS。 
+ <img src="https://xcmdpic.oss-cn-beijing.aliyuncs.com/zotero/2021-02-06-120027.png" />
 
   ![](https://xcmdpic.oss-cn-beijing.aliyuncs.com/zotero/2021-02-06-120027.png)
 
